@@ -1,38 +1,45 @@
 # API Doa Fácil.org
-Projeto acadêmico de campanha de doação financeira para a manutenção e sustentabilidade das organizações.
+Instruções de instalação e configuração 
 
 # Título do projeto
 
-Um parágrafo da descrição do projeto vai aqui
+Projeto acadêmico de campanha de doação financeira para a manutenção e sustentabilidade das organizações sem fins lucrativos e não governamentais.
 
 ## 🚀 Começando
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
-
-Consulte **Implantação** para saber como implantar o projeto.
 
 ### 📋 Pré-requisitos
 
 De que coisas você precisa para instalar o software e como instalá-lo?
 
 ```
-Dar exemplos
+Você vai precisar ter instalado em sua maquina os seguintes pacotes
+
+* [Node](https://nodejs.org/en/download/) - Escolha o dowload de acordo com o seu sistema operacional e instale-o
+* [Git](https://git-scm.com/downloads) - Sistema de controle de versões distribuído.
+* [DotNet](https://dotnet.microsoft.com/download) - Caso o seu dotnet Framework esteja desatualizado, click no link e atualize.
 ```
 
 ### 🔧 Instalação
 
 Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
 
-Diga como essa etapa será:
+## Back End
 
 ```
-Dar exemplos
-```
+# Clonando o repositório na sua maquina
+git clone https://github.com/JoandersonAlvesMarti
+ns/API-DoaFacil.org.git
 
-E repita:
+# Acessar a pastar
+cd API-DoaFacil.org
 
-```
-Até finalizar
+# Instalando as dependências do projeto
+npm install
+
+# Para levantar o servidor
+nodemom start
 ```
 
 Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.

@@ -15,10 +15,14 @@ De que coisas você precisa para instalar o software e como instalá-lo?
 
 Você vai precisar ter instalado em sua maquina os seguintes pacotes
 
-* [Node](https://nodejs.org/en/download/) - Escolha o dowload de acordo com o seu sistema operacional e instale-o
+* [Node](https://nodejs.org/en/download/) - Escolha o dowload de acordo com o seu sistema operacional e instale-o.
+
 * [Git](https://git-scm.com/downloads) - Sistema de controle de versões distribuído.
+
 * [DotNet](https://dotnet.microsoft.com/download) - Caso o seu dotnet Framework esteja desatualizado, click no link e atualize.
+
 * [VS Code](https://code.visualstudio.com/download) - Você pode usar o editor de código de sua preferência.
+
 * [Insomnia](https://insomnia.rest/download) - Interface para visualizar e testar o código sem que seja preciso criar uma interface,mais você pode usar o de sua preferência. 
 
 ### 🔧 Instalação
@@ -46,13 +50,19 @@ npm install
 nodemom start
 ```
 
-## 🛠️ Construído com editar
+## 🛠️ Construído com 
 
-Mencione as ferramentas que você usou para criar seu projeto
+* [Node](https://nodejs.org/en/download/) - Escolha o dowload de acordo com o seu sistema operacional e instale-o.
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
+* [Git](https://git-scm.com/downloads) - Sistema de controle de versões distribuído.
+
+* [VS Code](https://code.visualstudio.com/download) - Você pode usar o editor de código de sua preferência.
+
+* [Insomnia](https://insomnia.rest/download) - Interface para visualizar e testar o código sem que seja preciso criar uma interface,mais você pode usar o de sua preferência.
+
+* [Express](https://expressjs.com/en/starter/installing.html) - Express é uma estrutura de aplicativo da web Node.js mínima e flexível que fornece um conjunto robusto de recursos para aplicativos da web e móveis.
+
+* [GitHub](https://github.com/) - Repositório de códigos
 
 ## No Insomnia
 

@@ -13,13 +13,11 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 De que coisas você precisa para instalar o software e como instalá-lo?
 
-```
 Você vai precisar ter instalado em sua maquina os seguintes pacotes
 
 * [Node](https://nodejs.org/en/download/) - Escolha o dowload de acordo com o seu sistema operacional e instale-o
 * [Git](https://git-scm.com/downloads) - Sistema de controle de versões distribuído.
 * [DotNet](https://dotnet.microsoft.com/download) - Caso o seu dotnet Framework esteja desatualizado, click no link e atualize.
-```
 
 ### 🔧 Instalação
 

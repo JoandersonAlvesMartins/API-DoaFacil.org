@@ -18,6 +18,8 @@ Você vai precisar ter instalado em sua maquina os seguintes pacotes
 * [Node](https://nodejs.org/en/download/) - Escolha o dowload de acordo com o seu sistema operacional e instale-o
 * [Git](https://git-scm.com/downloads) - Sistema de controle de versões distribuído.
 * [DotNet](https://dotnet.microsoft.com/download) - Caso o seu dotnet Framework esteja desatualizado, click no link e atualize.
+* [VS Code](https://code.visualstudio.com/download) - Você pode usar o editor de código de sua preferência.
+* [Insomnia](https://insomnia.rest/download) - Interface para visualizar e testar o código sem que seja preciso criar uma interface,mais você pode usar o de sua preferência. 
 
 ### 🔧 Instalação
 
@@ -44,32 +46,6 @@ npm install
 nodemom start
 ```
 
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
-
-## ⚙️ Executando os testes
-
-Explicar como executar os testes automatizados para este sistema.
-
-### 🔩 Analise os testes de ponta a ponta
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
-
-### ⌨️ E testes de estilo de codificação
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
-
-## 📦 Desenvolvimento
-
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
-
 ## 🛠️ Construído com
 
 Mencione as ferramentas que você usou para criar seu projeto
@@ -77,6 +53,34 @@ Mencione as ferramentas que você usou para criar seu projeto
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
 * [Maven](https://maven.apache.org/) - Gerente de Dependência
 * [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
+
+## No Insomnia
+
+# Método GET
+
+* 1º Crie um projeto com o nome Api Doa Fácil.org
+* 2º Crie uma pasta chamada de API
+* 3º Crie uma new request e dê o nome de lista
+* 4º Mude o método para GET
+* 5º A baixo do método GET, mude a opção para json
+* 6º Na url do método GET cole está url "localhost:3003/campanhas", em seguida, click em SEND para ver a lista de campanhas.
+
+# Método POST
+
+* 1º Dentro da pasta, crie um new request e dê o nome de criar
+* 2º Mude o método para POST
+* 3º A baixo do método POST, mude a opção para JSON
+* 4º Crie um arquivo json com o seguinte código 
+{
+  "descricao": "campanha criada 04",
+  "meta": "85,23"
+} 
+
+e click em SEND
+
+# Método PUT
+
+# Método DELETE
 
 ## 🖇️ Colaborando
 

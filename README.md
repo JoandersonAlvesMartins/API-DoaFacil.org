@@ -32,12 +32,16 @@ Uma série de exemplos passo-a-passo que informam o que você deve executar para
 git clone https://github.com/JoandersonAlvesMarti
 ns/API-DoaFacil.org.git
 
+```
+```
 # Acessar a pastar
 cd API-DoaFacil.org
-
+```
+```
 # Instalando as dependências do projeto
 npm install
-
+```
+```
 # Para levantar o servidor
 nodemom start
 ```

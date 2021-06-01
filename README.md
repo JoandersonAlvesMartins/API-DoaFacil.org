@@ -46,7 +46,7 @@ npm install
 nodemom start
 ```
 
-## 🛠️ Construído com
+## 🛠️ Construído com editar
 
 Mencione as ferramentas que você usou para criar seu projeto
 

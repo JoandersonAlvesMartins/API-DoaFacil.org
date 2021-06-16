@@ -92,6 +92,40 @@ e click em SEND
 
 # Método DELETE
 
+# Instalando o Banco de Dados Sqglite3
+npm i -S sqlite3
+
+# Instalando o squelize
+npm i -S sequelize
+
+# Instalando o sequelize-cli apenas no ambiente de desenvolvimento
+npm i -D sequelize-cli
+
+# Criando o arquivo.sequelizerc
+Arquivo criado para, no sequelize é um arquivo de configuraçao que possibilitar o trabalha atráves de rotas, apois criar mudar seu tipo para javascript, pois ele usa a esrutura do js no seu corpo.
+
+# npx sequelize init
+O npx execulta o pacote sem precisar instala-lo, criando pastas e arquivos dentro da pasta src.
+
+# Arquivo config.json
+Esse arquivo trás toda uma configuração de abiente com o banco de dados, produção,teste e desenvolvimento.
+Nele você pode especifica qual o dialeto do seu banco, senha, no da base de dados e senha, deixando totalmente configurado.
+
+# npx sequelize model:generate -- Organizacao --attributes continua...'colocar o nome dos atributos da tabela apois o --attrtbutes' 
+Cria um modelo de uma tabela, nesse caso organizacao já com seus atributos, com esse modelo de arquivo, podemos manipular a tabela organização na base de dados.
+
+# npx sequelize db:migrate
+Criando o banco de dados
+
+# npm start
+Para levantar o servidor
+
+# npx sequelize migration:create --name campanha-add-status
+Inserindo um campo na tabela campanha 
+
+# npx sequelize model:generate --name ListaCampanha --attributes meta:integer,arrecadacao:integer,total_Doadores:integer,status:string,Cod_Campanha:integer
+Criando o modelo de lista, parei no video do dia 25 no time 45:51
+
 ## 🖇️ Colaborando
 
 Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
